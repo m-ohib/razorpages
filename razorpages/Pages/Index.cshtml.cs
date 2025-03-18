@@ -9,6 +9,7 @@ public class IndexModel : PageModel
 
     public IndexModel(ILogger<IndexModel> logger)
     {
+        int gsmer;
         _logger = logger;
     }
 
